@@ -6,9 +6,9 @@ const search = () => {
   const [dropoffLocation, setDropoffLocation] = useState('')
 
   return (
-    <div className="h-screen bg-gray-200">
+    <div className="h-screen bg-gray-200 p-2">
       <Link href="/">
-        <div className="h-10 cursor-pointer bg-white px-4">
+        <div className="mx-auto h-10 max-w-7xl cursor-pointer bg-white px-4">
           <img
             className="h-12"
             src="https://img.icons8.com/ios-filled/50/000000/left.png"
@@ -17,7 +17,7 @@ const search = () => {
         </div>
       </Link>
 
-      <div className="flex items-center justify-center space-x-4 bg-white p-4">
+      <div className="mx-auto flex max-w-7xl items-center justify-center space-x-4 bg-white p-4">
         <div className="flex flex-col">
           <img
             className="h-5 w-5"
@@ -59,7 +59,7 @@ const search = () => {
           />
         </div>
       </div>
-      <div className="mt-2 flex items-center bg-white px-4 py-2">
+      <div className="mx-auto mt-2 flex max-w-7xl items-center bg-white px-4 py-2">
         <img
           className="mr-2 h-10 w-10 rounded-full bg-gray-400 p-2"
           src="https://img.icons8.com/ios-filled/50/ffffff/star--v1.png"

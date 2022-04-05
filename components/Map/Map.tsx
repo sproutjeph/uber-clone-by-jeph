@@ -35,7 +35,7 @@ const Map = ({ pickupCoord, dropoffCoord }: IProps) => {
   }, [pickupCoord, dropoffCoord])
 
   return (
-    <div id="map" className="bg-gray-300-500 flex flex-1">
+    <div id="map" className=" flex-1 bg-gray-300">
       Map
     </div>
   )

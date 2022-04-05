@@ -14,13 +14,13 @@ const LoginPage = () => {
     })
   }, [])
   return (
-    <div className=" px-4">
+    <div className=" mx-auto mt-8 flex max-w-2xl flex-col items-start justify-center px-4">
       <img
         className="h-24"
         src="https://i.ibb.co/84stgjq/uber-technologies-new-20218114.jpg"
         alt=""
       />
-      <h1 className="pt-4 text-5xl text-gray-500">
+      <h1 className="mb-4 pt-4 text-5xl text-gray-500">
         Log in to access Your account
       </h1>
 

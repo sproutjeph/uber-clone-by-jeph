@@ -12,7 +12,7 @@ const Home: NextPage = () => {
         <title>Uber Clone By Jeph</title>
         <link rel="icon" href="/favicon.ico" />
       </Head>
-      <main className="flex h-screen flex-col bg-blue-500">
+      <main className="mx-auto flex h-screen max-w-7xl flex-col bg-gray-300">
         <Map />
         <ActionItems />
       </main>

@@ -47,9 +47,9 @@ const ComfirmPage = () => {
 
   return (
     <>
-      <div className="flex h-screen flex-col">
+      <div className=" flex h-screen flex-col pt-1">
         <Map pickupCoord={pickupCoord} dropoffCoord={dropoffCoord} />
-        <div className="mb-4 flex h-1/2 flex-1 flex-col px-4">
+        <div className=" mb-4 flex h-1/2  flex-1 flex-col px-4">
           <RideSelector pickupCoord={pickupCoord} dropoffCoord={dropoffCoord} />
         </div>
       </div>
